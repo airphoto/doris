@@ -1,0 +1,7 @@
+使用docker编译的时候会遇到一些问题
+1：将apache-doris-0.12.0-incubating-src/thirdparty 下的脚本复制到 /var/local/thirdparty
+# cp apache-doris-0.12.0-incubating-src/thirdparty/*.sh /var/local/thirdparty
+
+2:/var/local/thirdparty/vars.sh中一些依赖的地址不能访问，直接替换提供的vars.sh即可
+
+3：apache-doris-0.12.0-incubating-src/fe/pom.xml中一些依赖的地址不能访问，直接替换提供的pom.xml即可
